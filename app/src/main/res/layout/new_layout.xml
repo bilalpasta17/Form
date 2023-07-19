@@ -10,7 +10,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtNameLayout"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
         android:layout_marginTop="16dp"
         app:boxCornerRadiusBottomEnd="12dp"
         app:boxCornerRadiusBottomStart="12dp"
@@ -30,17 +31,17 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtContact"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
         app:boxCornerRadiusBottomEnd="12dp"
         app:boxCornerRadiusBottomStart="12dp"
         app:boxCornerRadiusTopEnd="12dp"
-        app:boxCornerRadiusTopStart="12dp">
+        app:boxCornerRadiusTopStart="12dp"
+        android:padding="3dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txtContactNo"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:hint="Contact Number" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -48,8 +49,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtEmail"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
         app:boxCornerRadiusBottomEnd="12dp"
         app:boxCornerRadiusBottomStart="12dp"
         app:boxCornerRadiusTopEnd="12dp"
@@ -66,8 +67,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtDate"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
         app:boxCornerRadiusBottomEnd="12dp"
         app:boxCornerRadiusBottomStart="12dp"
         app:boxCornerRadiusTopEnd="12dp"
@@ -84,8 +85,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtTime"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
         app:boxCornerRadiusBottomEnd="12dp"
         app:boxCornerRadiusBottomStart="12dp"
         app:boxCornerRadiusTopEnd="12dp"
@@ -102,8 +103,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtRemarks"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
         app:boxCornerRadiusBottomEnd="12dp"
         app:boxCornerRadiusBottomStart="12dp"
         app:boxCornerRadiusTopEnd="12dp"
