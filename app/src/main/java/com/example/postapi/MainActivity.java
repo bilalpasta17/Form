@@ -172,13 +172,20 @@ public class MainActivity extends AppCompatActivity {
                             if (!EdRemarks.getText().toString().equals("") || EdRemarks.getText().toString().equals(null)) {
                                 String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+.[a-z]+";
                                 if ((txtEmailAddr.getText().toString().matches(emailPattern))) {
-                                    Toast.makeText(MainActivity.this, "All Good", Toast.LENGTH_SHORT).show();
-                                    addItemToSheet();
+//
+                                    String contactNumberRegex = "^[0-9]{10,13}$";
 
+                                    if (txtContactNo.getText().toString().matches(contactNumberRegex)) {
+                                        Toast.makeText(MainActivity.this, "All Good", Toast.LENGTH_SHORT).show();
+//
+//
+                                        addItemToSheet();
+                                    }
+                                    else {
+                                        txtContactNo.setError("invalid number");
+                                    }
                                 } else
                                     txtEmailAddr.setError("Invalid Email");
-
-
                             } else {
                                 EdRemarks.setError("empty not allowed");
                             }
